@@ -1,0 +1,57 @@
+@font-face {
+    font-family: digital;
+    src: url("digital-7.ttf");
+}
+@font-face {
+    font-family: digit;
+    src: url("digit.ttf");
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+.main {
+    background: url("bg.jpg");
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+div {
+    text-align: center;
+}
+
+button {
+    padding: 2px 4px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin: 0px auto;
+    font-family: digit;
+}
+
+h1 {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    background: black;
+    margin: 20px auto;
+    color: #BB4C55;
+    font-family: digit;
+    
+}
+h3 {
+    text-shadow: 0px 0px 3px black;
+}
+#new {
+    font-family:  fantasy, cursive;
+    background: #fff;
+    color: #00916E
+}
